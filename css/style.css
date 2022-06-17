@@ -1,0 +1,72 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/main-bg.avif");
+  background-size: cover;
+}
+.input-wrapper {
+  position: fixed;
+  top: 20;
+  left: 20;
+}
+
+.form__input {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 100%;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+#submitBtn {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+}
+
+#location,
+#description-wrapper {
+  text-align: center;
+}
+
+#description,
+#location {
+  font-size: 3em;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 8em;
+}
+
+body.sunny {
+  background-image: url("../images/sunny.avif");
+}
+
+body.cloudy {
+  background-image: url("../images/cloudy.avif");
+  background-size: cover;
+}
+
+body.rainy {
+  background-image: url("../images/rainy.avif");
+  background-size: cover;
+}
